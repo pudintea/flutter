@@ -1,0 +1,50 @@
+//
+https://chatgpt.com/c/68c7bf09-75ec-8330-b5dd-7d4c65f5b28a
+
+Buat project Flutter baru
+Di terminal:
+> flutter create webview_app
+> cd webview_app
+
+Tambahkan package WebView
+Edit file pubspec.yaml, di bagian dependencies: tambahkan:
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.13.0
+  webview_flutter_android: ^4.10.2
+*) Versi bisa berubah, jadi cek versi terbaru di pub.dev/webview_flutter
+Lalu jalankan:
+> flutter pub get
+
+
+Edit file lib/main.dart
+
+
+Konfigurasi Android
+Buka android/app/src/main/AndroidManifest.xml
+Tambahkan permission internet di atas <application>:
+<uses-permission android:name="android.permission.INTERNET"/>
+
+Jalankan di emulator / device
+> flutter run
+Aplikasi akan menampilkan halaman https://example.com di dalam WebView.
+
+6. Build untuk release (APK / AAB)
+
+Seperti aplikasi biasa, tinggal jalankan:
+> flutter build apk --release
+# atau
+> flutter build appbundle --release
+
+JALANKAN
+> flutter clean
+> flutter pub get
+> flutter run
+
+
+
+
+
+Pudin Saepudin : italazhar.com
