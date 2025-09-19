@@ -1,5 +1,9 @@
 Download : Download VS COde : https://docs.flutter.dev/get-started/install/windows/web
 
+Environment Variable > PATH > Edit
+:: D:\base_flutter\bin #Sesuaikan
+
+
 WEKWBVIEW : https://pub.dev/packages/webview_flutter_wkwebview/versions
 webview_flutter_android : https://pub.dev/packages/webview_flutter_android/versions
 
