@@ -1,7 +1,37 @@
 Download : Download VS COde : https://docs.flutter.dev/get-started/install/windows/web
 
+## INSTALL FLUTTER TANPA ANDROID STUDIO ##
+
+Tutorial Lengkap : https://www.youtube.com/watch?v=oFzEQfxDQ8A
+
+Download Flutter
+================
+Link : https://docs.flutter.dev/install/manual
+yang ini : Download the Flutter SDK bundle
+
 Environment Variable > PATH > Edit
-:: D:\base_flutter\bin #Sesuaikan
+:: C:\flutter\bin #Sesuaikan
+
+Tes buka CMD
+> flutter --version
+
+
+Download JAVA JDK 21 Download
+=============================
+Link : https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html
+Download Yang : Windows x64 Installer : https://download.oracle.com/java/21/archive/jdk-21.0.9_windows-x64_bin.exe
+
+Tes buka CMD
+> java -version
+
+Android SDK Download
+=====================
+Link : https://developer.android.com/studio
+Pilih yang : Khusus alat command-line, : 	commandlinetools-win-14742923_latest.zip
+
+
+
+
 
 
 WEKWBVIEW : https://pub.dev/packages/webview_flutter_wkwebview/versions
