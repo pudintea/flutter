@@ -28,8 +28,13 @@ Android SDK Download
 =====================
 Link : https://developer.android.com/studio
 Pilih yang : Khusus alat command-line, : 	commandlinetools-win-14742923_latest.zip
+Buat Folder "Android" di C:\
+Ekstrak commandlinetools-win-14742923_latest.zip ke foler C:\Android
+Buat folder "latest" di "C:\Android\cmdline-tools"
+Masukan semua file disana kedalam folder "latest", C:\Android\cmdline-tools\latest
+Buat folder "platform-tools" di "C:\Android\platform-tools"
 
-
+Buka Environment Variable :
 
 
 
