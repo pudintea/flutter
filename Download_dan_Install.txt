@@ -75,7 +75,14 @@ Doctor summary (to see all details, run flutter doctor -v):
 
 Beresss..
 
+Jika Masih Error
+Coba jalankan:
+> flutter clean
+> flutter pub get
+> flutter run
 
+Chrome
+> flutter run -d chrome
 
 
 WEKWBVIEW : https://pub.dev/packages/webview_flutter_wkwebview/versions
